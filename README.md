@@ -5,10 +5,10 @@ Zhuo Huang<sup>1</sup>, Muyang Li<sup>1</sup>, Li Shen<sup>2</sup>, Jun Yu<sup>3
 <sup>1</sup>The University of Sydney, <sup>2</sup>JD Explore Academy, <sup>3</sup>University of Science and Technology of China, <sup>4</sup>Nanjing University of Science and Technology, <sup>5</sup>Hong Kong Baptist University
 
 
+# Overview
 Out-of-Distribution (OOD) Generalization aims to learn robust models that generalize well to various environments without fitting to distribution-specific features. Recent studies based on Lottery Ticket Hypothesis (LTH) address this problem by minimizing the learning target to find some of the parameters that are critical to the task. However, in OOD problems, such solutions are suboptimal as the learning task contains severe distribution noises, which can mislead the optimization process. Therefore, apart from finding the task-related parameters (\textit{i.e.}, invariant parameters), we propose \textbf{Exploring Variant parameters for Invariant Learning (EVIL)} which also leverages the distribution knowledge to find the parameters that are sensitive to distribution shift (\textit{i.e.}, variant parameters). Once the variant parameters are left out of invariant learning, a robust subnetwork that is resistant to distribution shift can be found. Additionally, the parameters that are relatively stable across distributions can be considered invariant ones to improve invariant learning. By fully exploring both variant and invariant parameters, our EVIL can effectively identify a robust subnetwork to improve OOD generalization. In extensive experiments on integrated testbed: DomainBed, EVIL can effectively and efficiently enhance many popular methods, such as ERM, IRM, SAM, etc.
 
 
-# Overview
 ![Overview](imgs/framework.png )
 
 
