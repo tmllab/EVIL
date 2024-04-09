@@ -1,4 +1,4 @@
-# Winning Prize Comes from Losing Tickets: Improve Invariant Learning by Exploring Variant Parameters for Out-of-Distribution Generalization
+# IJCV 2024: Winning Prize Comes from Losing Tickets: Improve Invariant Learning by Exploring Variant Parameters for Out-of-Distribution Generalization
 
 Zhuo Huang<sup>1</sup>, Muyang Li<sup>1</sup>, Li Shen<sup>2</sup>, Jun Yu<sup>3</sup>, Chen Gong<sup>4</sup>, Bo Han<sup>5</sup>, Tongliang Liu<sup>1</sup>
 
